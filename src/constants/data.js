@@ -4,17 +4,17 @@ const tortas = [
   {
     title: 'Super Torta de Manzana',
     price: '$2500',
-    tags: 'Canela | Manzana | Azucar',
+    tags: '8 Porciones | Canela | Manzana | Azucar',
   },
   {
     title: 'Lemon Pie',
     price: '$2500',
-    tags: 'Limon | Merenge | Azucar',
+    tags: '8 Porciones | Limon | Merengue | Azucar',
   },
   {
     title: 'Brownie de Chocolate',
     price: 'Coming Soon...',
-    tags: 'Chocolate | Dulce de Leche',
+    tags: '8 Porciones | Chocolate | Dulce de Leche',
   },
 ];
 

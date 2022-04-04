@@ -1,7 +1,7 @@
 import React from 'react';
-import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
+import { FiInstagram } from 'react-icons/fi';
 
-import { FooterOverlay, Newsletter } from '../../components';
+import { FooterOverlay } from '../../components'; // Newsletter
 import { images } from '../../constants';
 import './Footer.css';
 
@@ -15,14 +15,16 @@ const Footer = () => {
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contacto</h1>
-        <img src={images.spoon} className="spoon__img" style={{ marginBottom: 15 }} />
-        <FiInstagram id="ig" />
+        <img src={images.spoon} alt="spoon" className="spoon__img" style={{ marginBottom: 15 }} />
+        <a>
+          <FiInstagram id="ig" />
+        </a>
       </div>
 
       <div className="app__footer-links_logo">
         <img src={images.logo} alt="footer_logo" />
         <p className="p__opensans">&quot;Repostería de calidad.&quot;</p>
-        <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
+        <img src={images.spoon} alt="spoon" className="spoon__img" style={{ marginTop: 15 }} />
 
       </div>
 
