@@ -1,13 +1,13 @@
 import bg from '../assets/bg.png';
 import chef from '../assets/chef.png';
 import G from '../assets/G.png';
-import gallery01 from '../assets/gallery01.png';
-import gallery02 from '../assets/gallery02.png';
-import gallery03 from '../assets/gallery03.png';
-import gallery04 from '../assets/gallery04.png';
+import gallery01 from '../assets/gallery01.jpg';
+import gallery02 from '../assets/gallery02.jpg';
+import gallery03 from '../assets/gallery03.jpg';
+import gallery04 from '../assets/gallery04.jpg';
 import knife from '../assets/knife.png';
 import logo from '../assets/logo.png';
-import menu from '../assets/menu.png';
+import menu from '../assets/menu.jpg';
 import overlaybg from '../assets/overlaybg.png';
 import spoon from '../assets/spoon.svg';
 import welcome from '../assets/welcome.png';
@@ -19,6 +19,7 @@ import award03 from '../assets/award03.png';
 import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
+import lemonEx from '../assets/lemonEx.jpeg';
 
 export default {
   bg,
@@ -42,4 +43,5 @@ export default {
   award05,
   sign,
   quote,
+  lemonEx
 };

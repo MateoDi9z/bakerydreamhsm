@@ -1,3 +1,7 @@
+.h {
+  color: var(--color-golden) !important;
+}
+
 .app__specialMenu {
   flex-direction: column;
   background-color: var(--color-black);
@@ -14,7 +18,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .app__specialMenu-menu_heading {
@@ -34,51 +38,39 @@
 }
 
 .app__specialMenu-menu_img {
-  width: 410px;
-  margin: 0 2rem;
+  width: 60%;
+  margin: 4rem auto;
 }
 
 .app__specialMenu-menu_img img {
   width: 100%;
-  height: auto;
 }
 
 .app__specialMenu-menu_items {
   display: flex;
   flex-direction: column;
   margin: 2rem 0;
-  width: 100%;
+  width: 70%;
 }
+
 
 @media screen and (max-width: 2000px) {
   .app__specialMenu-menu_img {
-    width: 650px;
-  }
-
-  .app__specialMenu-menu_img img {
-    height: 920px;
+    width: 60%;
+    margin: 4rem auto;
   }
 }
 
 @media screen and (max-width: 1150px) {
-  .app__specialMenu-menu {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-
   .app__specialMenu-menu_img {
-    margin: 3rem 0;
+    width: 80%;
+    margin: 3rem auto;
   }
 }
 
 @media screen and (max-width: 650px) {
   .app__specialMenu-menu_img {
-    width: 100%;
-  }
-
-  .app__specialMenu-menu_heading {
-    font-size: 35px;
+    width: 90%;
+    margin: 2rem auto;
   }
 }
-

@@ -1,58 +1,28 @@
 import images from './images';
 
-const wines = [
+const tortas = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Super Torta de Manzana',
+    price: '$2500',
+    tags: 'Canela | Manzana | Azucar',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Lemon Pie',
+    price: '$2500',
+    tags: 'Limon | Merenge | Azucar',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
-  },
-  {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
-  },
-  {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Brownie de Chocolate',
+    price: 'Coming Soon...',
+    tags: 'Chocolate | Dulce de Leche',
   },
 ];
 
-const cocktails = [
+const postres = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
-  },
-  {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
-  },
-  {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
-  },
-  {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
-  },
-  {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Muffins',
+    price: 'Coming Soon...',
+    tags: '12 Unidades | Limon | Chocolate | Vainilla',
   },
 ];
 
@@ -79,4 +49,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { tortas, postres, awards };

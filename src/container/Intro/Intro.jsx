@@ -1,11 +1,11 @@
 import React from 'react';
 
 import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs';
-import { meal } from "../../constants";
+import { images } from "../../constants";
 import './Intro.css';
 
 const Intro = () => {
-  const [playVideo, setPlayVideo] = React.useState(false)
+  /*const [playVideo, setPlayVideo] = React.useState(false)
   const vidRef = React.useRef();
 
   const handleVideo = () => {
@@ -16,9 +16,15 @@ const Intro = () => {
     } else {
       vidRef.current.play();
     }
-  }
+  }*/
 
   return (
+    <div>
+      <img src={images.lemonEx} alt="Lemon" className='app_video-img' />
+    </div>
+    )
+
+  /*return (
     <div className="app__video">
       <video 
         src={meal}
@@ -39,7 +45,7 @@ const Intro = () => {
         </div>
       </div>
     </div>
-  )
+  )*/
 };
 
 export default Intro;

@@ -11,10 +11,12 @@ const AboutUs = () => (
 
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
-        <h1 className="headtext__cormorant">About Us</h1>
+        <h1 className="headtext__cormorant">Que hacemos?</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans"> Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Quis Pharetra Adipiscing Ultrices Vulputate Posuere Tristique. In Sed Odio Nec Aliquet Eu Proin Mauris Et. </p>
-        <button type="button" className="custom__button">Kwow More</button>
+        <p className="p__opensans"> Somos un nuevo emprendimiento repostero y hacemos desde tortas hasta postres de distintos tipos </p>
+        <a href="#menu">
+          <button type="button" className="custom__button">Ver Menu</button>
+        </a>
       </div>
 
       <div className="app__aboutus-content_knife flex__center">
@@ -22,10 +24,12 @@ const AboutUs = () => (
       </div>
 
       <div className="app__aboutus-content_history">
-        <h1 className="headtext__cormorant">Our History</h1>
+        <h1 className="headtext__cormorant">Donde?</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans"> Adipiscing Tempus Ullamcorper Lobortis Odio Tellus Arcu Volutpat. Risus Placerat Morbi Volutpat Habitasse Interdum Mi Aliquam In Sed Odio Nec Aliquet. </p>
-        <button type="button" className="custom__button">Kwow More</button>
+        <p className="p__opensans"> Nuestra venta esta orientada principalmente en HSM por el momento </p>
+        <a href="#galeria">
+          <button type="button" className="custom__button">Ver Ejemplos</button>
+        </a>
       </div>
     </div>
   </div>

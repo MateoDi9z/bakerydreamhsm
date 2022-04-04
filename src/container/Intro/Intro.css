@@ -21,3 +21,11 @@
   border: 1px solid var(--color-golden);
   cursor: pointer;
 }
+
+.app_video-img {
+  height: 100vh;
+  margin-bottom: -5px !important;
+  width: 100% !important;
+  object-fit: cover;
+  margin: 0
+}

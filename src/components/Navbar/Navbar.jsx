@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="app__navbar">
       <ul className="app__navbar-links first">
         <li className="p__opensans"><a href="#home">Home</a></li>
-        <li className="p__opensans"><a href="#about">About</a></li>
+        <li className="p__opensans"><a href="#about">Info</a></li>
       </ul>
 
       <div className="app__navbar-logo">
@@ -22,7 +22,7 @@ const Navbar = () => {
 
       <ul className="app__navbar-links sec">
         <li className="p__opensans"><a href="#menu">Menu</a></li>
-        <li className="p__opensans"><a href="#contact">Contact</a></li>
+        <li className="p__opensans"><a href="#contact">Contacto</a></li>
       </ul>
 
       <div className="app__navbar-smallscreen">

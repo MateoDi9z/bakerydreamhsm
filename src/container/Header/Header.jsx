@@ -12,12 +12,11 @@ const Header = () => (
       <p className="p__opensans" style={{ margin: "-0.5rem 0 2rem" }}>
         Postres, Tortas & Mas
       </p>
-      <button type="button" className="custom__button">Explore Menu</button>
+      <a href="#menu"><button type="button" className="custom__button" >Explorar Menu</button></a>
     </div>
     <div className="app__wrapper_img">
       <img src={ images.welcome } alt="header img" />
     </div>
   </div>
 );
-
 export default Header;

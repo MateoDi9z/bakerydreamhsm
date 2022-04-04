@@ -14,14 +14,14 @@ const Footer = () => {
 
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
-        <h1 className="app__footer-headtext">Contact Us</h1>
+        <h1 className="app__footer-headtext">Contacto</h1>
         <img src={images.spoon} className="spoon__img" style={{ marginBottom: 15 }} />
         <FiInstagram id="ig" />
       </div>
 
       <div className="app__footer-links_logo">
         <img src={images.logo} alt="footer_logo" />
-        <p className="p__opensans">&quot;The best way to find yourself is to lose yourself in the service of others.&quot;</p>
+        <p className="p__opensans">&quot;Repostería de calidad.&quot;</p>
         <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
 
       </div>

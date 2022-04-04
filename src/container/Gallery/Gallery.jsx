@@ -26,14 +26,16 @@ const Gallery = () => {
   }
 
   return (
-    <div className="app__gallery flex__center">
+    <div className="app__gallery flex__center" id="galeria">
       <div className="app__gallery-content">
         <SubHeading title="Instagram" />
-        <h1 className="headtext__cormorant">Photo Gallery</h1>
+        <h1 className="headtext__cormorant">Galeria</h1>
         <p className="p__opensans" style={{ color: '#AAA', marginTop: '2rem' }}>
-          Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Volutpat Mattis Ipsum Turpis Elit Elit Scelerisque Egestas Mu.
+          Algunas fotografías de nuestras producciones entre ellas, Lemon Pie y Super Torta de Manzana
         </p>
-        <button type="button" className="custom__button">View More</button>
+        <a href="https://www.instagram.com/bakerydreamhsm/">
+          <button type="button" className="custom__button" style={{ marginTop: '2rem' }} >Ver Mas</button>
+        </a>
       </div>
 
       <div className="app__gallery-images">
